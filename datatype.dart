@@ -33,4 +33,19 @@ void main() {
 
   var Invalid = false;
   print(Invalid);
+
+// String
+  String s1 = 'String ';
+  String s2 = "String";
+  String s3 = "It's Easy";
+  String s4 = "Dart is programming language which is used for mobile";
+  print(s1);
+  print(s2);
+  print(s3);
+  print(s4);
+
+  //String Interpolation
+
+  String Lastname = 'Ali';
+  print("Hassan $Lastname");
 }
