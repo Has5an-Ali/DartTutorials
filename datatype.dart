@@ -48,4 +48,14 @@ void main() {
 
   String Lastname = 'Ali';
   print("Hassan $Lastname");
+
+  String fullname = "Hassan Ali";
+  print("MY name is $fullname");
+
+  print("The Length of my nmae is ${fullname.length}");
+
+  int l = 20;
+  int b = 10;
+
+  print("The length is $l and Breath is $b which is equal to ${l * b}");
 }
