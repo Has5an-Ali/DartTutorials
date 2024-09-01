@@ -22,4 +22,23 @@ void main() {
   } else {
     print("Invalid Marks");
   }
+
+  // If Else Expression
+
+  int a = 25;
+  int b = 20;
+
+  if (a < b) {
+    print("A is less ");
+  } else {
+    print("B is less");
+  }
+
+  a < b ? print('A is less ') : print('B is less');
+
+  String name = 'Hassan';
+
+  String nameprint = name ?? "Guest Name";
+
+  print(nameprint);
 }
