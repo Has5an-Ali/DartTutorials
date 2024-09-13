@@ -5,6 +5,7 @@ void main() {
   car.CarColor = "Red Color";
   car.CarModel = 24;
   car.Carinfo();
+  car.CarModelUpdate('Black Color');
 }
 
 class Car {
@@ -16,5 +17,11 @@ class Car {
     print("Car Color is $CarColor");
     print("Car Name is $CarName");
     print("Car Model is $CarModel");
+  }
+
+  void CarModelUpdate(String UpdatecarModel) {
+    CarColor = UpdatecarModel;
+
+    print("Color Update To $UpdatecarModel for Car  $CarName");
   }
 }
